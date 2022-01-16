@@ -7,11 +7,13 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   width: 450px;
-  border: 2px solid #2A9FBC;
+  margin: 50px auto;
+  border: 2px solid #2a9fbc;
 }
 
-header, footer {
-  background-color: #2A9FBC;
+header,
+footer {
+  background-color: #2a9fbc;
   color: white;
   padding: 10px 5px;
 }
@@ -22,8 +24,8 @@ header h1 {
 
 .ratings div {
   padding: 5px;
-  border-bottom: 2px solid #2A9FBC;
-  color: #1F778D;
+  border-bottom: 2px solid #2a9fbc;
+  color: #1f778d;
 }
 
 .ratings input[type="number"] {
@@ -32,14 +34,13 @@ header h1 {
   font-size: 16px;
   padding: 5px;
   border: none;
-  color: #1F778D;
+  color: #1f778d;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .advanced {
@@ -48,6 +49,6 @@ header h1 {
 
 .advanced_btn {
   padding: 10px;
-  color: #1F778D;
+  color: #1f778d;
   border-radius: 10px;
 }
